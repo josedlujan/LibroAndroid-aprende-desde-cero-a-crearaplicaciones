@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.holamundo.MainActivity" >
+
+  
+  <TextView
+        android:id="@+id/textobienvenida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bienvenidos" />
+    
+   <EditText 
+        android:id="@+id/Nusuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/usuario"
+        />
+      <EditText 
+        android:id="@+id/Pusuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        />
+     <LinearLayout
+        android:layout_width="match_parent"
+	  android:layout_height="wrap_content"
+	  android:orientation="horizontal"
+	  android:weightSum="1"        >
+	       
+             <Button
+	        android:id="@+id/Bingresar"
+	 	  android:layout_width="0dp"
+		  android:layout_weight=".5"
+		  android:layout_height="wrap_content"
+		  android:text="@string/ingresar"	           
+	           />
+	       <Button
+	         android:id="@+id/Bolvidar"
+		   android:layout_width="0dp"
+		   android:layout_weight=".5"
+		   android:layout_height="wrap_content"
+	         android:text="@string/olvide"	           
+	           />   
+          
+       </LinearLayout>
+       <Button
+	  android:id="@+id/Bregistrar"
+	  android:layout_width="match_parent"
+	  android:layout_height="wrap_content"
+	  android:text="@string/registrar"	      
+  />
+</LinearLayout>
+
