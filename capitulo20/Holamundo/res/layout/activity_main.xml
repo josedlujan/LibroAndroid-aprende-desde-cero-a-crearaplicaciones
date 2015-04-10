@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="1"
+    tools:context="com.example.ejemplofragmentos.MainActivity" >
+
+ <fragment     
+     android:id="@+id/izquierda"
+     android:layout_width="0dp"
+     android:layout_weight=".5"
+     android:layout_height="match_parent"
+     class="com.example.ejemplofragmentos.Izquierda"
+     />
+ <fragment     
+     android:id="@+id/derecha"
+     android:layout_width="0dp"
+     android:layout_weight=".5"
+     android:layout_height="match_parent"
+     class="com.example.ejemplofragmentos.Derecha"
+     />
+</LinearLayout>
+
+

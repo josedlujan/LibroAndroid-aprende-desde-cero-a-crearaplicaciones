@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Holamundo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+	<string name="bienvenidos">Bienvenidos a esta App!!!</string>
+	<string name="usuario">Usuario</string>
+	<string name="password">password</string>
+	<string name="ingresar">Ingresar</string>
+	<string name="registrar">Registrar</string>
+	<string name="olvide">Olvide</string>
+	<string name="mes">enero</string>
+	<string name="boton">Dialog</string>
+	<string name="texto">Texto</string>
+	<string-array name="meses">
+	    <item>Enero</item>
+	    <item >Febrero</item>
+      	<item>Marzo</item>
+        <item>Abril</item>
+        <item>Mayo</item>	
+        <item>Junio</item>
+        <item>Julio</item>
+        <item>Agosto</item>
+        <item>Septiembre</item>
+        <item>Octubre</item>
+        <item>Noviembre</item>
+        <item>Diciembre</item>
+	    
+	    
+	    
+	    
+	</string-array>
+	
+
+	
+</resources>
